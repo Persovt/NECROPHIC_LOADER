@@ -1,0 +1,6 @@
+﻿  Loader.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+e:\necrpohis\loader\loader.cpp(378): error C2181: недопустимый else без парного if
+e:\necrpohis\loader\loader.cpp(416): error C2601: RegMyWindowClass: недопустимые локальные определения функций
+  e:\necrpohis\loader\loader.cpp(160): note: эта строка содержит скобку "{", которая пока не имеет парной
+e:\necrpohis\loader\loader.cpp(160): fatal error C1075: "{": не найдена несоответствующая лексема

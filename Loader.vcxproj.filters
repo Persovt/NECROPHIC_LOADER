@@ -1,0 +1,1195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="auth.cpp" />
+    <ClCompile Include="web.cpp" />
+    <ClCompile Include="hwid.cpp" />
+    <ClCompile Include="CryptoPP\3way.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\adhoc.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\adler32.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\algebra.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\algparam.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\arc4.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\aria.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\aria-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ariatab.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\asn.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\authenc.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\base32.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\base64.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\basecode.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\bench1.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\bench2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\bfinit.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\blake2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\blake2-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\blowfish.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\blumshub.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\camellia.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\cast.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\casts.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\cbcmac.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ccm.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\chacha.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\channels.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\cmac.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\cpu.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\crc.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\crc-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\cryptlib.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\datatest.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\default.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\des.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\dessp.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\dh.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\dh2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\dll.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\dlltest.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\dsa.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\eax.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ec2n.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\eccrypto.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ecp.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\elgamal.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\emsa2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\eprecomp.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\esign.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\files.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\filters.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\fips140.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\fipsalgt.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\fipstest.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gcm.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gcm-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gf2_32.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gf2n.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gf256.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gfpcrypt.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gost.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\gzip.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\hex.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\hmac.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\hrtimer.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ida.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\idea.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\integer.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\iterhash.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\kalyna.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\kalynatab.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\keccak.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\luc.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\mars.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\marss.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\md2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\md4.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\md5.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\misc.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\modes.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\mqueue.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\mqv.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\nbtheory.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\neon-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\network.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\oaep.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\osrng.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\padlkrng.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\panama.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\pch.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\pkcspad.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\poly1305.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\polynomi.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ppc-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\pssr.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\pubkey.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\queue.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rabin.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\randpool.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rc2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rc5.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rc6.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rdrand.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rdtables.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\regtest1.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\regtest2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\regtest3.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rijndael.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rijndael-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ripemd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rng.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rsa.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\rw.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\safer.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\salsa.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\scrypt.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\seal.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\seed.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\serpent.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sha.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sha3.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\shacal2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\shacal2-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\shark.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sharkbox.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sha-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\simon.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\simon-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\simple.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\skipjack.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sm3.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sm4.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\socketft.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sosemanuk.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\speck.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\speck-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\square.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\squaretb.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\sse-simd.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\strciphr.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\tea.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\test.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\tftables.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\threefish.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\tiger.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\tigertab.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\trdlocal.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\ttmac.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\tweetnacl.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\twofish.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\validat0.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\validat1.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\validat2.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\validat3.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\validat4.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\vmac.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\wait.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\wake.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\whrlpool.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\winpipes.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\xtr.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\xtrcrypt.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\zdeflate.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\zinflate.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoPP\zlib.cpp">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="antire.h">
+      <Filter>Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="WndProc.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="mmap.h">
+      <Filter>MMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Loader%27s imgui\AquaCheats Loader\RawD.h">
+      <Filter>MMap</Filter>
+    </ClInclude>
+    <ClInclude Include="sh.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="string_enc.h" />
+    <ClInclude Include="string_2.h" />
+    <ClInclude Include="string_1.h" />
+    <ClInclude Include="auth.h" />
+    <ClInclude Include="web.h" />
+    <ClInclude Include="hwid.h" />
+    <ClInclude Include="CryptoPP\3way.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\adler32.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\adv-simd.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\aes.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\algebra.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\algparam.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\arc4.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\argnames.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\aria.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\asn.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\authenc.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\base32.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\base64.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\basecode.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\bench.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\blake2.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\blowfish.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\blumshub.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\camellia.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\cast.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\cbcmac.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ccm.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\chacha.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\channels.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\cmac.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\config.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\cpu.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\crc.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\cryptlib.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\default.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\des.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\dh.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\dh2.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\dll.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\dmac.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\drbg.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\dsa.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\eax.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ec2n.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\eccrypto.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ecp.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ecpoint.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\elgamal.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\emsa2.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\eprecomp.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\esign.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\factory.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\fhmqv.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\files.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\filters.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\fips140.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\fltrimpl.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gcm.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gf2_32.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gf2n.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gf256.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gfpcrypt.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gost.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\gzip.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\hashfwd.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\hex.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\hkdf.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\hmac.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\hmqv.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\hrtimer.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ida.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\idea.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\integer.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\iterhash.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\kalyna.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\keccak.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\lubyrack.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\luc.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\mars.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\md2.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\md4.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\md5.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\mdc.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\mersenne.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\misc.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\modarith.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\modes.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\modexppc.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\mqueue.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\mqv.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\naclite.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\nbtheory.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\network.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\nr.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\oaep.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\oids.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\osrng.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ossig.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\padlkrng.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\panama.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\pch.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\pkcspad.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\poly1305.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\polynomi.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ppc-simd.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\pssr.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\pubkey.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\pwdbased.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\queue.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rabin.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\randpool.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rc2.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rc5.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rc6.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rdrand.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\resource.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rijndael.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ripemd.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rng.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rsa.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\rw.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\safer.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\salsa.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\scrypt.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\seal.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\secblock.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\seckey.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\seed.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\serpent.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\serpentp.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\sha.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\sha3.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\shacal2.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\shark.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\simon.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\simple.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\siphash.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\skipjack.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\sm3.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\sm4.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\smartptr.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\socketft.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\sosemanuk.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\speck.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\square.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\stdcpp.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\strciphr.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\tea.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\threefish.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\tiger.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\trap.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\trdlocal.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\trunhash.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\ttmac.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\tweetnacl.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\twofish.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\validate.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\vmac.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\wait.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\wake.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\whrlpool.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\winpipes.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\words.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\xtr.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\xtrcrypt.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\zdeflate.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\zinflate.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoPP\zlib.h">
+      <Filter>libraries\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{363371c6-5f60-4599-9258-a5a89415d550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMap">
+      <UniqueIdentifier>{6b895efc-187a-45ea-b525-46c8211b1ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard">
+      <UniqueIdentifier>{a8c7f235-29c7-4cb3-a60b-4ef1202e3042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{3bb70906-8494-47dd-b13c-9f261ac7746a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\CryptoPP">
+      <UniqueIdentifier>{5f093c98-200a-401c-80a9-894bce93dd79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Loader.rc" />
+    <ResourceCompile Include="CryptoPP\cryptopp.rc">
+      <Filter>libraries\CryptoPP</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CryptoPP\adhoc.cpp.copied">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\adhoc.cpp.proto">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\bds10.zip">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptdll.vcxproj">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptdll.vcxproj.filters">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptdll.vcxproj.user">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptest.nmake">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptest.sh">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptest.sln">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptest.vcxproj">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptest.vcxproj.filters">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptest.vcxproj.user">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptlib.vcxproj">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptlib.vcxproj.filters">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptlib.vcxproj.user">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\cryptopp.supp">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\dlltest.vcxproj">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\dlltest.vcxproj.filters">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\dlltest.vcxproj.user">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\Doxyfile">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\GNUmakefile">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\GNUmakefile-cross">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\rdrand.asm">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\rdrand.s">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\rdrand-masm.cmd">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\rdrand-nasm.sh">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\vs2005.zip">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\x64dll.asm">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+    <None Include="CryptoPP\x64masm.asm">
+      <Filter>libraries\CryptoPP</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CryptoPP\cryptlib.lib">
+      <Filter>libraries\CryptoPP</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CryptoPP\Filelist.txt">
+      <Filter>libraries\CryptoPP</Filter>
+    </Text>
+    <Text Include="CryptoPP\History.txt">
+      <Filter>libraries\CryptoPP</Filter>
+    </Text>
+    <Text Include="CryptoPP\Install.txt">
+      <Filter>libraries\CryptoPP</Filter>
+    </Text>
+    <Text Include="CryptoPP\License.txt">
+      <Filter>libraries\CryptoPP</Filter>
+    </Text>
+    <Text Include="CryptoPP\Readme.txt">
+      <Filter>libraries\CryptoPP</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
